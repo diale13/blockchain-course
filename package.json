@@ -1,0 +1,31 @@
+{
+  "name": "obligatorio-charbonnier-franggi-gertner-pintos",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7872870&assignment_repo_type=AssignmentRepo)",
+  "main": "index.js",
+  "scripts": {
+    "deploy-hardhat": "npx hardhat run scripts/deploy.js",
+    "deploy-ganache": "npx hardhat run scripts/deploy.js --network ganache",
+    "deploy-rinkeby": "npx hardhat run scripts/deploy.js --network rinkeby",
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tecnologias-Blockchain-y-Contratos-Inte/obligatorio-charbonnier-franggi-gertner-pintos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tecnologias-Blockchain-y-Contratos-Inte/obligatorio-charbonnier-franggi-gertner-pintos/issues"
+  },
+  "homepage": "https://github.com/Tecnologias-Blockchain-y-Contratos-Inte/obligatorio-charbonnier-franggi-gertner-pintos#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.7",
+    "solc": "^0.8.14-fixed"
+  }
+}
